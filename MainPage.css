@@ -28,3 +28,8 @@ li {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
