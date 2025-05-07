@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f292fc;
+    background-color: rgb(255, 255, 255);
     color: #333;
 }
 header {
-    background-color: #0078d7;
+    background-color: #ff90fb;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -22,7 +22,7 @@ ul {
     padding: 0;
 }
 li {
-    background: rgb(134, 243, 255);
+    background:#ffffff;
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 5px;
