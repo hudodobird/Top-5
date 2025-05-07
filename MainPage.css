@@ -6,7 +6,7 @@ body {
     color: #333;
 }
 header {
-    background-color: #ff90fb;
+    background-color: #00bbff;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -22,7 +22,7 @@ ul {
     padding: 0;
 }
 li {
-    background: #ff90fb;
+    background: white;
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 5px;
