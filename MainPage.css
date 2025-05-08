@@ -51,13 +51,15 @@ body.dark-mode {
     color: #ffffff;
 }
 
-header.dark-mode {
-    background-color: #3d3d3d;
+body.dark-mode li {
+    background: #606060;
 }
 
-a.dark-mode {
-    color: #00bbff;
+body.dark-mode a {
+    background: #00bbff;
 }
-li.dark-mode {
-    background: #606060;
+
+body.dark-mode header {
+    background-color: #5c5c5c;
+    color: white;
 }
