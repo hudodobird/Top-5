@@ -56,7 +56,11 @@ body.dark-mode li {
 }
 
 body.dark-mode a {
-    background: #00bbff;
+    color: #00bbff;
+}
+
+body.dark-mode a:hover {
+    color: #aa00ff;
 }
 
 body.dark-mode header {
