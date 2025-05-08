@@ -20,5 +20,17 @@
             <li><a href="Item5.html">#5 - Your girl doesn't make your meals</a></li>
         </ul>
     </main>
+    <button id="darkModeToggle" style="margin: 10px; padding: 10px; background-color: #00bbff; color: white; border: none; border-radius: 5px; cursor: pointer;">Toggle Dark Mode</button>
 </body>
+<script>
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    darkModeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        if (document.body.classList.contains('dark-mode')) {
+            darkModeToggle.textContent = 'Light Mode';
+        } else {
+            darkModeToggle.textContent = 'Dark Mode';
+        }
+    });
+</script>
 </html>
